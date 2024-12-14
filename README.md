@@ -1,3 +1,8 @@
-# Typescript DDD Skeleton
+<h1 align="center">🍁 TypeScript DDD skeleton</h1>
 
-🍁 Template of a Typescript & Express application using Domain-Driven Design and Command Query Response Segregation principles. 
+![](https://raw.githubusercontent.com/n1nj4t4nuk1/python-ddd-skeleton/assets/assets/logo.png)
+
+
+Template of a REST Api TypeScript application using: Hexagonal Architecture, Domain-Driven Design (DDD), Command Query Response Segregation (CQRS) and Event Sourcing.
+
+Based on [typescript-ddd-skeleton](https://github.com/CodelyTV/typescript-ddd-skeleton) project from [CodelyTV](https://github.com/CodelyTV).
