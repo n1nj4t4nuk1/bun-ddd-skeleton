@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    // Environment setup & latest features
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "module": "Preserve",
+    "moduleDetection": "force",
+    "jsx": "react-jsx",
+    "allowJs": true,
+
+    // Bundler mode
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+
+    // Best practices
+    "strict": true,
+    "skipLibCheck": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+
+    // Some stricter flags (disabled by default)
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noPropertyAccessFromIndexSignature": false,
+
+    // Imports and paths
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@apps/*": ["src/applications/*"],
+      "@libs/*": ["src/contexts/*"],
+      "@shared/*": ["src/shared/*"],
+      "@cqrs/*": ["src/shared/cqrs/*"],
+      "@value-objects/*": ["src/shared/value-objects/*"],
+      "@domain-events/*": ["src/shared/domain-events/*"],
+      "@logging/*": ["src/shared/logging/*"],
+      "@criteria/*": ["src/shared/criteria/*"]
+    }
+  }
+}
